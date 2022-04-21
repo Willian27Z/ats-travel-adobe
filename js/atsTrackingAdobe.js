@@ -3,7 +3,7 @@
 //var _satellite = {track: function(action, obj){console.log("firing rule: "+action+" - details:", obj)}};
 
 // tracking of Page end
-window.digitalData = {
+var digitalData = {
 	pageTitle: document.title,
 	language: "en-US",
 	pageCategory: "generic",
