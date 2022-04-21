@@ -3,18 +3,15 @@
 //var _satellite = {track: function(action, obj){console.log("firing rule: "+action+" - details:", obj)}};
 
 // tracking of Page end
-
-setTimeout(function name(params) {
-    window.digitalData = {
-        pageTitle: document.title,
-        language: "en-US",
-        pageCategory: "generic",
-        products: [],
-        promotions: [],
-        transaction: null,
-        totalPrice: null
-    }
-}, 2000);
+window.digitalData = {
+	pageTitle: document.title,
+	language: "en-US",
+	pageCategory: "generic",
+	products: [],
+	promotions: [],
+	transaction: null,
+	totalPrice: null
+}
 
 var usersList =[
 	{"id": 1055,"login": "ATS","password": "ATS@55!"},
